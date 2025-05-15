@@ -391,6 +391,7 @@
 
     .Products #img-box {
         width: 49%;
+        min-height: 475px;
         margin: 10px 2px;
     }
 
