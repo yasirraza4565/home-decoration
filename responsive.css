@@ -576,8 +576,8 @@
     }
 
     .img-container img {
-        width: 124%;
-        height: 124vh;
+        width: 125%;
+        height: 126vh;
     }
 
     .home-container p {
@@ -604,5 +604,11 @@
 
     #contact-us span a {
         width: 112%;
+    }
+
+    .gallery-container img {
+        width: 40%;
+        height: 200px;
+        margin: 20px 10px;
     }
 }
