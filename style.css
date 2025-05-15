@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     background-color: rgb(191, 191, 191);
+    scroll-behavior: smooth;
 }
 
 /* navbar session */
@@ -25,7 +26,7 @@
     background-color: rgb(192, 192, 192);
     opacity: 0.9;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
 }
 
 .nav-links {
@@ -218,6 +219,7 @@
     height: 410px;
     border-radius: 20px;
     margin: 4px;
+    transition: all 0.3s ease;
 }
 
 #img-box:hover {
@@ -235,9 +237,11 @@
 }
 
 #img-box .h3 {
-    font-size: 1rem;
-    font-family: serif;
-    font-weight: bold;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    /* font-weight: bold; */
     text-align: center;
     margin-bottom: 3px;
     background: transparent;
@@ -520,10 +524,6 @@ div #site-footer {
 }
 
 /* Humburger styles*/
-.navbar {
-  z-index: 2;
-}
-
 .nav-links {
   display: flex;
   gap: 20px;

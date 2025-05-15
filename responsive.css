@@ -10,6 +10,7 @@
     .Products #img-box {
         width: 30%;
         height: 400px;
+        margin: 3px 15px;
     }
 
     #img-box img {
@@ -24,6 +25,13 @@
 }
 
 @media (max-width:950px) {
+
+    .nav-links {
+        display: flex;
+        gap: 10px;
+    }
+
+
     .home-container h2 {
         font-size: 1.8rem;
     }
@@ -35,14 +43,14 @@
     .Products #img-box {
         width: 32%;
         height: 400px;
+        margin: 2px 4px;
     }
 
     .gallery-container img {
-        width: 185px;
-        height: 245px;
+        width: 170px;
+        height: 240px;
+        margin: 2px 19px;
     }
-
-
 }
 
 @media (max-width:900px) {
@@ -158,6 +166,7 @@
     .gallery-container img {
         width: 150px;
         height: 235px;
+        margin: 20px 10px;
     }
 
     .navbar a {
@@ -194,7 +203,7 @@
 @media (max-width:750px) {
     .nav-links {
         display: flex;
-        gap: 10px;
+        gap: 6px;
     }
 
     .home-container h2 {
@@ -264,8 +273,8 @@
     }
 
     .img-container img {
-        width: 101%;
-        height: 101vh;
+        width: 100%;
+        height: 100vh;
     }
 
     .gallery-container img {
@@ -288,7 +297,8 @@
     }
 
     #contact-icons {
-        width: 70%;
+        width: 100%;
+        padding: 2px 0px;
     }
 
     .contact-container p {
@@ -391,14 +401,15 @@
 
 @media (max-width:450px) {
     .img-container img {
-        width: 111%;
-        height: 111vh;
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
     }
 
     .home-content {
         width: 90%;
         top: 170px;
-        right: 52px;
+        right: 9px;
     }
 
     #img-box .h3 {
@@ -411,18 +422,18 @@
     }
 
     .gallery-container img {
-        width: 41%;
+        width: 45%;
         height: 200px;
-        margin: 20px 18px;
+        margin: 20px 6px;
     }
 
     .about-container {
-        width: 103%;
+        width: 100%;
     }
 
     #parent-container span a {
-        width: 108%;
-        margin: 60px 0px 0px 0px;
+        width: 100%;
+        margin: 20px 0px 0px 0px;
     }
 }
 
@@ -438,8 +449,8 @@
     }
 
     .img-container img {
-        width: 117%;
-        height: 117vh;
+        width: 100%;
+        height: 100vh;
     }
 
     .home-container p {
@@ -447,59 +458,58 @@
     }
 
     #parent-container span a {
-        width: 116%;
-        margin: 90px 0px 0px 0px;
+        width: 100%;
+        margin: 20px 0px 0px 0px;
     }
 
     .Products {
-        width: 105%;
+        width: 100%;
+        margin: 2px 0px;
     }
 
     .Products #img-box {
-        width: 70%;
+        width: 80%;
         margin: 16px 45px;
     }
 
     .gallery-container {
-        width: 110%;
-        margin: 2px 13px;
-    }
-
-    body {
-        width: 97%;
+        width: 100%;
+        margin: 2px 0px;
     }
 
     #parent-container {
-        width: 98%;
-        margin: 0px 30px;
+        width: 100%;
     }
 
     .about-container {
-        width: 119%;
+        width: 100%;
     }
 
     .contact-details span {
-        width: 111%;
+        width: 100%;
     }
 
     .contact-container p {
-        width: 91%;
+        width: 100%;
+        padding: 2px 0px;
+        margin: 15px 0px;
     }
 
     #contact-form {
-        width: 118%;
+        width: 100%;
     }
 
     #gallery span a {
-        width: 108%;
+        width: 100%;
+        margin: 25px 0px 0px 0px;
     }
 }
 
 @media (max-width:350px) {
     .home-content {
-        top: 221px;
-        width: 103%;
-        right: -13px;
+        top: 130px;
+        width: 100%;
+        right: 0px;
     }
 
     .home-container h2 {
@@ -507,8 +517,9 @@
     }
 
     .img-container img {
-        width: 119%;
-        height: 119vh;
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
     }
 
     .home-container p {
@@ -516,99 +527,114 @@
     }
 
     #parent-container span a {
-        margin: 112px 0px 0px 0px;
-        width: 106%;
+        margin: 20px 0px 0px 0px;
+        width: 100%;
     }
 
     .Products {
-        width: 105%;
+        width: 100%;
+        margin: 2px 0px;
     }
 
     .Products #img-box {
-        width: 82%;
+        width: 89%;
         height: 420px;
         margin: 16px 20px;
     }
 
     .gallery-container {
-        width: 118%;
-        margin: 2px 2px;
+        width: 100%;
+        margin: 2px 0px;
     }
 
     #gallery span a {
-        width: 111%;
-    }
-
-    body {
-        width: 97%;
+        width: 100%;
+        margin: 50px 0px 0px 0px;
     }
 
     .about-container {
-        width: 123%;
+        width: 100%;
     }
 
     #site-footer span a {
-        width: 111%;
+        width: 100%;
+        margin: 25px 0px;
     }
 
     .contact-container p {
-        width: 95%;
+        width: 100%;
+        padding: 2px 0px;
+        margin: 15px 0px;
+        font-size: 1.3rem;
     }
-
-
 }
 
 @media (max-width:320px) {
+
     .Products #img-box {
-        width: 90%;
-        height: 460px;
-        margin: 16px 5px;
+        width: 97%;
+        height: 417px;
+        margin: 15px 5px 0px 5px;
     }
 
     .home-content {
-        top: 221px;
-        width: 103%;
-        right: -13px;
+        top: 155px;
+        width: 100%;
+        right: 1px;
     }
 
     .home-container h2 {
-        font-size: 1.3rem;
-    }
-
-    .img-container img {
-        width: 125%;
-        height: 126vh;
-    }
-
-    .home-container p {
         font-size: 1.2rem;
     }
 
+    .img-container img {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .home-container p {
+        font-size: 0.9rem;
+        margin: 12px 0px;
+        width: 93%;
+    }
+
     #parent-container span a {
-        margin: 172px 0px 0px 0px;
-        width: 106%;
+        margin: 20px 0px 0px 0px;
+        width: 100%;
     }
 
     .Products {
-        width: 105%;
+        width: 100%;
+        margin: 2px 0px;
     }
 
     .gallery-container {
-        width: 129%;
+        width: 100%;
         margin: 2px 0px;
     }
 
     .about-container {
-        width: 128%;
+        width: 100%;
     }
 
     #contact-us span a {
-        width: 112%;
+        width: 100%;
+        margin: 2px 0px;
     }
 
     .gallery-container img {
         width: 40%;
         height: 200px;
-        margin: 20px 10px;
+        margin: 20px 10px 0px 10px;
+    }
+
+    #contact-icons {
+        width: 100%;
+        padding: 2px 0px;
+    }
+
+    .home-container button {
+        padding: 15px 18px;
     }
 }
